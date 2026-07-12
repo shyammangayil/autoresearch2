@@ -26,6 +26,7 @@ session = ort.InferenceSession('student_model.onnx')
 
 ### 3. Quantized Model (INT8)
 The model has been optimized using dynamic quantization, reducing latency by ~1.5x on CPU. Use `student_model_int8.pth` for resource-constrained environments.
+Can be found at : https://drive.google.com/drive/folders/1dqGlt-gPEYtYjZm7gHEDhXbWnCApyoHI?usp=drive_link
 
 ## Files
 - `train.py`: Model definition and training logic.
